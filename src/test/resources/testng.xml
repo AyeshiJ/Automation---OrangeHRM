@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" verbose="1">
+    <test name="LoginAndDashboardClick">
+        <classes>
+            <class name="OpenLoginTest"/>
+            <class name="AdminTest"/>
+        </classes>
+    </test>
+</suite>
